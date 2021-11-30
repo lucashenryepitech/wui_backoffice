@@ -27,6 +27,7 @@
 </script>
 
 <script>
+/* eslint-disable vue/multi-word-component-names */
   import mapboxgl from 'mapbox-gl'
   import 'mapbox-gl/dist/mapbox-gl.css';
   import {
@@ -71,7 +72,7 @@
           case 'Roadblocked':
             tmpType = 'markerClosedRoad'
             break
-          case 'Traffic Jam':
+          case 'TrafficJam':
             tmpType = 'markerTraficJam'
             break
           case 'Bus':
@@ -116,7 +117,7 @@
           case 'Police':
             tmpType = 'markerPolice'
             break
-          case 'Public Transport':
+          case 'PublicTransport':
             tmpType = 'markerPublicTransit'
             break
           case 'StreetArt':

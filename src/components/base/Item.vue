@@ -25,6 +25,7 @@
 </template>
 
 <script>
+/* eslint-disable */
   import Themeable from 'vuetify/lib/mixins/themeable'
 
   export default {

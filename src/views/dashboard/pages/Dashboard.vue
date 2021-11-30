@@ -516,7 +516,7 @@
                 Nombre de Balises :
               </div>
               <v-list-item-title class="text-h5 mb-1">
-                {{ getPreciseWaypointNumber('Public Transport') }}
+                {{ getPreciseWaypointNumber('PublicTransport') }}
               </v-list-item-title>
             </v-list-item-content>
 
@@ -558,7 +558,7 @@
                 Nombre de Balises :
               </div>
               <v-list-item-title class="text-h5 mb-1">
-                {{ getPreciseWaypointNumber('Traffic Jam') }}
+                {{ getPreciseWaypointNumber('TrafficJam') }}
               </v-list-item-title>
             </v-list-item-content>
 

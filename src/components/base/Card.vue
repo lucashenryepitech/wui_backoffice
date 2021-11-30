@@ -1,4 +1,5 @@
 <script>
+/* eslint-disable */
   import { VCard } from 'vuetify/lib'
 
   export default {

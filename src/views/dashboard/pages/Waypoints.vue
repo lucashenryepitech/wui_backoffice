@@ -217,6 +217,7 @@
 </template>
 
 <script>
+/* eslint-disable */
   import {
     mapState,
   } from 'vuex'
@@ -226,7 +227,7 @@
 
     data () {
       return {
-        items_type: ['StreetArt', 'Roadworks', 'Protest', 'Roadblocked', 'FleaMarket', 'Accident', 'Fireman', 'Pickpocket', 'Police', 'Public Transport', 'Traffic Jam', 'Market', 'Exhibition', 'Concert', 'Other', 'New'],
+        items_type: ['StreetArt', 'Roadworks', 'Protest', 'Roadblocked', 'FleaMarket', 'Accident', 'Fireman', 'Pickpocket', 'Police', 'PublicTransport', 'TrafficJam', 'Market', 'Exhibition', 'Concert', 'Other', 'New'],
         items_status: ['Pending', 'Active', 'Declined'],
         items: [],
         menu1: false,
