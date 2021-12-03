@@ -306,7 +306,7 @@
                 Nombre de Balises :
               </div>
               <v-list-item-title class="text-h5 mb-1">
-                {{ getPreciseWaypointNumber('Concer') }}
+                {{ getPreciseWaypointNumber('Concert') }}
               </v-list-item-title>
             </v-list-item-content>
 
